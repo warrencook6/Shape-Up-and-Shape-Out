@@ -1,0 +1,19 @@
+{
+  "name": "shapeup",
+  "version": "1.0.0",
+  "main": "new_script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warrencook6/Shape-Up-Shape-Out.git"
+  },
+  "bugs": {
+    "url": "https://github.com/warrencook6/Shape-Up-Shape-Out/issues"
+  },
+  "homepage": "https://github.com/warrencook6/Shape-Up-Shape-Out#readme",
+  "description": ""
+}

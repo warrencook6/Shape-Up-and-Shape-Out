@@ -1,0 +1,97 @@
+#Title {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+}
+#drawingBox{
+  position: relative;
+  width:600px;
+  height:600px;
+  border:1px
+  solid #000;
+  background-color: rgb(136,199,201) 58%, rgb(202,232,235) 100%;
+  margin: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+
+#square, #rectangle, #circle, #triangle {
+  width: 20%;
+  text-align: center;
+  font-size: 25px;
+  font: 2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+  padding: 14px;
+  background:repeat-x center #ffcc00;
+  border-bottom:1px solid #9f9f9f;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+  cursor:pointer;
+}
+
+.sidepanel {
+  float:right;
+  clear: both;
+  /*clear: left;;*/
+}
+
+#Height, #Width, #Area, #Radius, #Perimeter  {
+  width: 25%;
+  text-align: center;
+  font-size: 25px;
+  font: 2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+  padding: 14px;
+  background:repeat-x center #ffcc00;
+  border-bottom:1px solid #9f9f9f;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+  cursor:pointer;
+  width: 50px;
+  height: 10px;
+}
+
+.button-container {
+  width: 650px;
+  height: 10px;
+}
+
+#canvas {
+    width: 600px;
+    height: 600px;
+    background-color: lightgray;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#detail-pane {
+    display: inline-block;
+    width: 300px;
+    margin: 0 30px;
+    vertical-align: top;
+}
+
+.shape {
+    cursor: pointer;
+    position: absolute;
+}
+
+.rectangle {
+    background-color: green;
+}
+
+.square {
+    background-color: red;
+}
+
+.circle {
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.triangle {
+    border-width: 0;
+    border-color: transparent;
+    border-bottom-color: yellow;
+    border-style: solid;
+}

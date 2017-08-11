@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Shape Up Or Shape Out</title>
+</head>
+
+<body>
+    <h1 id="Title">Shape Up Or Shape Out</h1>
+    <div id="mainBody" class="body-container">
+        <br>
+        <br>
+        <br>
+        <div class="button-container">
+            <div id="square">
+                <input type="number" id="drawSquare" placeholder="length">
+                <button id="submitSquare" type="submit">Draw Square</button>
+            </div><br>
+            <div id="rectangle">
+                <input id="recH" type="number" placeholder="rectangle-height">
+                <input id="recW" type="number" placeholder="rectangle-width">
+                <button id="submitRec" type="submit">Draw Rectangle</button>
+            </div><br>
+            <div id="circle">
+                <input id="radius" type="number" placeholder="Radius">
+                <button id="drawCircle">Draw Circle</button>
+            </div><br>
+            <div id="triangle">
+                <input id="tangle" type="number" placeholder="Height">
+                <button id="drawTriangle"> Draw Triangle</button>
+            </div>
+        </div>
+        <div class="sidepanel">
+            <h1 id="shape-name">Selected Shape</h1>
+            Height <br><input id="Height" type="text" name="Height"><br> Width <br><input id="Width" type="text" name="Width"><br>            Radius <br> <input id="Radius" type="text" name="Radius"><br> Area <br> <input id="Area" type="text" name="Area"><br>            Perimeter <br> <input id="Perimeter" type="text" name="Perimeter">
+        </div>
+        <div id="drawingBox"></div>
+    </div>
+
+    <script src="new_script.js"></script>
+
+</body>
+
+</html>
